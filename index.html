@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Count Down Timer</title>
+</head>
+<body>
+    <div class="container">
+            <p>What is the title of the event</p>
+            <input type="text" placeholder="Enter Your Event" id="title_event"/>
+            <p>What is the date and the time of the event</p>
+            <input type="datetime-local" min="2021-01-28T19:30" id="title_date"/>
+            <button type="submit" onclick="getTimeRemaining()">Start</button>
+            <div id="title_result"></div>
+    </div>
+    <script src="./app.js"></script>
+    <!-- <script src="./main.js" type="module"></script> -->
+</body>
+</html>
